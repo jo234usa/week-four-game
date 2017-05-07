@@ -9,42 +9,51 @@
 </head>
 <body>
 	
-	<div class="main-container">
-	
-		<header>Crystals Collector!</header>
-	
-		<section>
-			<p>At the start a random number will be provided</p>
-
-			<p>The values of the crystals are hidden. Click on them to determine their values. Everytime you click on a crystal its value is added to your total.</p>
-
-			<p>You win the game by matching your total score to the random number; you lose if your total score goes above the random number.</p>
-
-			<p>Each time the game starts, a new value is assigned to the crystals.</p> 
-		</section>
-		
-		<div class="row">
-			<div class="col-s-6" class="ranNumCol">
-				Random Number: <p id="displayRandomNumber"></p>
-			</div>
-			<div class="col-s-6" class="ttlScoreCol">
-				Your total score is: <p id="displaysYourTotalScore"></p>
-			</div>
+<div class="main-container">
+	<div class="row">
+		<div class="col-s-12">
+			<header>Crystals Collector!</header>
 		</div>
-		
-		<div class="row">
-			<div class="col-s-3"><img class="gems ruby" src="assets/images/ruby.jpg"></div>
-			<div class="col-s-3"><img class="gems diamond" src="assets/images/diamond.jpg"></div>
-			<div class="col-s-3"><img class="gems amethyst" src="assets/images/amethyst.jpg"></div>
-			<div class="col-s-3"><img class="gems emerald" src="assets/images/emerald.jpg"></div>
-		</div>
+	</div>
 
-		<div id="displayWinsAndLoss">
+	<div class="row">
+		<div class="col-s-12">
+			<section>
+				<p>At the start a random number will be provided</p>
+
+				<p>The values of the crystals are hidden. Click on them to determine their values. Everytime you click on a crystal its value is added to your total.</p>
+
+				<p>You win the game by matching your total score to the random number; you lose if your total score goes above the random number.</p>
+
+				<p>Each time the game starts, a new value is assigned to the crystals.</p> 
+			</section>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-s-6" class="ranNumCol">
+			Random Number: <p id="displayRandomNumber"></p>
+		</div>
+		<div class="col-s-6" class="ttlScoreCol">
+			Your total score is: <p id="displaysYourTotalScore"></p>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-s-3"><img class="gems ruby" src="assets/images/ruby.jpg"></div>
+		<div class="col-s-3"><img class="gems diamond" src="assets/images/diamond.jpg"></div>
+		<div class="col-s-3"><img class="gems amethyst" src="assets/images/amethyst.jpg"></div>
+		<div class="col-s-3"><img class="gems emerald" src="assets/images/emerald.jpg"></div>
+	</div>
+
+	<div class="row" id="displayWinsAndLoss">
+		<div class="col-s-12">
 			<p>Wins: <span id="winsDisplay"></span></p>
 	        <p>Losses: <span id="lossesDisplay"></span></p>
 	    </div>
+    </div>
 
-	</div>
+</div>
 
 </body>
 
